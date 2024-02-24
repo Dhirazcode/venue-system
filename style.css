@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-max;
+}
+body{
+    position: relative;
+}
+/* globol css */
+.obj-width{
+    max-width: 1200px;
+    margin: auto;
+}
+ nav{
+    background-color: brown;
+    color: black;
+ }
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    letter-spacing: 2px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0.2, 0.3);
+}
+.navbar .logo{
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 3.2rem;
+    letter-spacing: 5px;
+}
+
+#search-button{
+    max-width: 400px;
+    color: black;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 2.8px;
+    font-size: 19px;
+    border-radius: 5px;
+    margin-left: 2px;
+    padding: 10px 20px;
+}
+#search-input{
+    padding: 10px 20px;
+    max-width: 400px;
+    color: black;
+    border-radius: 5px;
+    border:none;
+    font-size:19px;
+     
+}
+
+#blog-cointainer{
+    margin: 1.3rem 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.blog {
+    width: 300px;
+    border: 1px solid black;
+    border: 5px;
+    cursor: pointer;
+}
